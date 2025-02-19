@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body {
+    background-color: #83E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 15px 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #2FA866, #063d1e);
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    min-height: auto;
+
+}
+
+header > h1 {
+    font-size: 3em;
+    padding: 20px;
+
+}
+
+header > p {
+    padding: 20px;
+}
+
+nav {
+    padding: 20px;
+    text-align: left;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+nav > a:hover {
+    background-color: #2FA866;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: 1s;
+
+}
+
+main {
+    background-color: white;
+    padding: 50px;
+    margin: 0 50px 50px;
+    box-shadow: 0 0 10px black;
+
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+article > h1 {
+    color: #063d1e;
+    font-size: 2em;
+}
+
+article > h2 {
+    background-image: linear-gradient(to right, #83E1AD, #C5EBD6, white);
+    color: #063d1e;
+
+}
+
+p > strong {
+    color: #063d1e;
+}
+
+a > strong {
+    color: #063d1e;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+aside {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    padding: 10px 10px 20px;
+
+}
+
+aside > h2 {
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0;
+    border-radius: 10px 10px 0 0;
+
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+
+}
+
+section > p {
+    background-color: white;
+    margin: 10px;
+}
+
+footer > p {
+    background-color: #063d1e;
+    color: white;
+    margin: 30px 10px 10px;
+    text-align: center;
+}
+
+footer p > strong {
+    color: white;
+
+}
